@@ -37,9 +37,10 @@ public class Person {
 
     @Override
     public String toString() {
-        return "제 이름은" + name +
-                "이고 나이는 '" + age +
-                "살인 "+ gender + "입니다. " +
+        return "제 이름은 " + name +
+                "이고 \n나이는 '" + age +
+                "살인 " + gender + "입니다. \n" +
                 "지금은 " + occupation + " 신분입니다.";
     }
 }
+

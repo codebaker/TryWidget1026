@@ -89,7 +89,11 @@
             android:layout_height="wrap_content"
             android:text="@string/submit"/>
     </LinearLayout>
-    <TextView android:id="@+id/result_textView"
+
+    <TextView
+        android:id="@+id/result_textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
 </LinearLayout>
